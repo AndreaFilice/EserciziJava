@@ -7,8 +7,7 @@ public class Frazione {
     private int numeratore, denominatore;
 
     //COSTRUTTORE
-    public Frazione(){
-    }
+    public Frazione(){}
 
     public Frazione(int num, int den){
         numeratore = num;
