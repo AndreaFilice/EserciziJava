@@ -1,6 +1,6 @@
 public class Frazione {
 
-    /// ANDREA FILICE, 4Ci, 01/10/2025
+    /// ANDREA FILICE, 4Ci, 01/10/2025 frocio di merda gay nero
     /// 1. utilizzando la classe Frazione precedentemente prescritta aggiungi metodi necessari per effettuare la somma, la differenza e il prodotto di frazione.
 
     //ATTRIBUTI
@@ -24,12 +24,11 @@ public class Frazione {
         denominatore = (denominatore/MCD);
     }
 
-    public int MCD(int a, int b){
-        if(a%b != 0){
-            int resto = a%b;
+    public int MCD(int a, int b) {
+        if (a % b != 0) {
+            int resto = a % b;
             return MCD(b, resto);
-        }
-        else
+        } else
             return b;
     }
 

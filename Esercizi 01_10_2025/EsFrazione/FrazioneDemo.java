@@ -1,7 +1,7 @@
 public class FrazioneDemo {
     public static void main(String[] args) {
-        Frazione frazione1 = new Frazione(3, 4);
-        Frazione frazione2 = new Frazione(6, 7);
+        Frazione frazione1 = new Frazione(1, 2);
+        Frazione frazione2 = new Frazione(2, 4);
 
         System.out.println("FRAZIONE NUMERO 1: " + frazione1.toString());
         System.out.println("FRAZIONE NUMERO 2: " + frazione2.toString());

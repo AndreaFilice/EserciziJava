@@ -28,10 +28,10 @@ public class Specie {
     /// METODI SET E GET
     //METODI SET
 
-    public void setSpecie(String nome, int popolazione, double tassoCrescita){
-        this.nome = nome;
-        this.popolazione = popolazione;
-        this.tassoCrescita = tassoCrescita;
+    public void setSpecie(String nuovoNome, int nuovaPopolazione, double nuovoTassoCrescita){
+        nome = nuovoNome;
+        popolazione = nuovaPopolazione;
+        tassoCrescita = nuovoTassoCrescita;
     }
 
     public void setNome(String nuovoNome){setSpecie(nuovoNome, popolazione, tassoCrescita);}
