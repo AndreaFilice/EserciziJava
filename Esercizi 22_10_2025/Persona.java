@@ -62,7 +62,17 @@ public class Persona {
         return eta >= 18;
     }
 
-    public float indiceMCorporea(){
-        return peso / (altezza * altezza);
+    public static float indiceMCorporea(Persona persona){
+        return persona.peso / (persona.altezza * persona.altezza);
+    }
+
+    public float indiceCorporeoMedio(Persona[] persone){
+        float indiceTotaleCorporeo = 0;
+
+        for(int i = 0; i < persone.length; i++){
+            indiceTotaleCorporeo += Persona.indiceMCorporea(persone[i]);
+        }
+
+        return  indiceTotaleCorporeo / persone.length;
     }
 }
