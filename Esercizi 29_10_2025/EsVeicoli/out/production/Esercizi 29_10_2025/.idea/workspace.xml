@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0ab7f28-40c1-4d77-b57e-ebd639673242" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/betterCommentsSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DemoVeicoli.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Esercizi 29_10_2025.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Motociclo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Veicolo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vettura.java" afterDir="false" />
-    </list>
+    <list default="true" id="b0ab7f28-40c1-4d77-b57e-ebd639673242" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/DemoVeicoli.java" root0="SKIP_INSPECTION" />
@@ -54,6 +44,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Studente/Documents/GitHub/EserciziJava/Esercizi 29_10_2025/EsVeicoli",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
