@@ -11,11 +11,25 @@ public class DemoVeicoli {
         vettura.leggiInput();
         System.out.println("TERZO MOTOCICLO: ");
         motociclo.leggiInput();
-        System.out.println("CLASSE VEICOLO DA REVISIONARE: " + veicolo.daRevisionare());
-        System.out.println("CLASSE VETTURA DA REVISIONARE: " + vettura.daRevisionare());
-        System.out.println("CLASSE MOTOCICLO DA REVISIONARE: " + motociclo.daRevisionare());
+
+        //METODO daRevisionare
+        if(veicolo.daRevisionare() == true)
+            System.out.println("CLASSE VEICOLO DA REVISIONARE: SI'");
+        else
+            System.out.println("CLASSE VEICOLO DA REVISIONARE: NO");
+
+        if(vettura.daRevisionare() == true)
+            System.out.println("CLASSE VETTURA DA REVISIONARE: SI'");
+        else
+            System.out.println("CLASSE VETTURA DA REVISIONARE: NO");
+
+        if(motociclo.daRevisionare() == true)
+            System.out.println("CLASSE MOTOCICLO DA REVISIONARE: SI'");
+        else
+            System.out.println("CLASSE MOTOCICLO DA REVISIONARE: NO");
 
         //SCRIVI OUTPUT
+        System.out.print("\n");
         veicolo.scriviOutput();
         vettura.scriviOutput();
         motociclo.scriviOutput();

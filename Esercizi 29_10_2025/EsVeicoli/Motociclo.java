@@ -20,7 +20,7 @@ public class Motociclo extends Veicolo{
     //METODI
     @Override
     public void scriviOutput(){
-        System.out.println("\nDATI VETTURA: ");
+        System.out.println("\nDATI MOTOCICLO: ");
         super.scriviOutput();
         System.out.print(", cilindrata: " + cilindrata + "\n");
     }
