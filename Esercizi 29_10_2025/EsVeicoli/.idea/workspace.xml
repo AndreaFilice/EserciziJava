@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0ab7f28-40c1-4d77-b57e-ebd639673242" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoVeicoli.java" beforeDir="false" afterPath="$PROJECT_DIR$/DemoVeicoli.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EsVeicoli.userlibraries" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Esercizi 29_10_2025.eml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Motociclo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Motociclo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Esercizi 29_10_2025/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Esercizi 29_10_2025/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Esercizi 29_10_2025/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Esercizi 29_10_2025/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Esercizi 29_10_2025/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Esercizi 29_10_2025/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Esercizi 29_10_2025/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Esercizi 29_10_2025/DemoVeicoli.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Esercizi 29_10_2025/DemoVeicoli.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Esercizi 29_10_2025/EsVeicoli.userlibraries" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Esercizi 29_10_2025/Esercizi 29_10_2025.eml" beforeDir="false" />
-    </list>
+    <list default="true" id="b0ab7f28-40c1-4d77-b57e-ebd639673242" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
