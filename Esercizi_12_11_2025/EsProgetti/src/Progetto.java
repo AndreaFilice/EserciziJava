@@ -1,6 +1,4 @@
-import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.text.ParseException;
 
 public class Progetto {
     //* ATTRIBUTI
