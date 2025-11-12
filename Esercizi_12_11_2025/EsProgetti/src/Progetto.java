@@ -1,0 +1,40 @@
+public class Progetto {
+    //* ATTRIBUTI
+    private Dipendente dipendente;
+    private String titoloProgetto;
+    private String dataInizio;
+    private double budget;
+
+    //* COSTRUTTORI
+    public Progetto(){}
+    public Progetto(Dipendente dipendente, String titoloProgetto, String dataInizio, double budget){
+        setProgetto(dipendente, titoloProgetto, dataInizio, budget);
+    }
+
+    //* METODI SET e GET
+    public void setProgetto(Dipendente dipendente, String titoloProgetto, String dataInizio, double budget){
+        this.dipendente = dipendente;
+        this.titoloProgetto = titoloProgetto;
+        this.dataInizio = dataInizio;
+        this.budget = budget;
+    }
+
+    public void setDipendente(Dipendente dipendente){this.dipendente = dipendente;}
+    public void setTitoloProgetto(String titoloProgetto){this.titoloProgetto = titoloProgetto;}
+    public void setDataInizio(String dataInizio){this.dataInizio = dataInizio;}
+    public void setBudget(double budget){this.budget = budget;}
+
+    public Dipendente getDipendente(){return dipendente;}
+    public String getTitoloProgetto(){return titoloProgetto;}
+    public String getDataInizio(){return dataInizio;}
+    public double getBudget(){return budget;}
+
+    public boolean equals(Progetto obj){
+        return obj.titoloProgetto.equals(this.titoloProgetto) && obj.budget == this.budget;
+    }
+
+    public void scriviOutput(){
+        System.out.println("Nome del progetto: " + titoloProgetto + ", matricola dipendente: " + dipendente.getMatricola()
+                + ", Data di inizio: " + dataInizio + ", Budget progetto: " + budget);
+    }
+}
