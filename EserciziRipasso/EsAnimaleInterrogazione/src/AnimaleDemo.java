@@ -11,7 +11,7 @@ public class AnimaleDemo {
 		
 		//CREAZIONE DUE ANIMALI STATICI
 		Animale animale1 = new Animale("Cane", 3, 6);
-		Animale animale2 = new Animale("Gatto", 6, 5.5);
+		Animale animale2 = new Animale("Gatto", 6, 4.5);
 		
 		//INSERIMENTO DEI 2 ANIMALI NELL'ARRAY LIST
 		animali.add(animale2); //ALMENO CONTROLLO CHE IL SORT FUNZIONI (Gatto viene dopo a Cane)
@@ -26,7 +26,7 @@ public class AnimaleDemo {
 		}
 		
 		//CALCOLA CATEGORIE DI PESO
-		int cat1 = 0, cat2 = 0, cat3 = 0;
+		double cat1 = 0, cat2 = 0, cat3 = 0;
 		
 		for (int i = 0; i < animali.size(); i++) {
 			if(animali.get(i).getPeso() < 5) {
@@ -43,8 +43,8 @@ public class AnimaleDemo {
 			}
 		}
 		
-		System.out.println("PERCENTUALE ANIMALI SOTTO I 5Kg: " + ((cat1/animali.size()) * 100) + "%");
-		System.out.println("PERCENTUALE ANIMALI COMPRESO FRA I 5 ED I 10 Kg: " + ((cat2/animali.size()) * 100) + "%");
-		System.out.println("PERCENTUALE ANIMALI SOPRA I 10 Kg: " + ((cat3/animali.size()) * 100) + "%");
+		System.out.println("PERCENTUALE ANIMALI SOTTO I 5Kg: " + ((cat1 * 100) / animali.size()) + "%");
+		System.out.println("PERCENTUALE ANIMALI COMPRESO FRA I 5 ED I 10 Kg: " + ((cat2 * 100) / animali.size()) + "%");
+		System.out.println("PERCENTUALE ANIMALI SOPRA I 10 Kg: " + ((cat3* 100) / animali.size()) + "%");
 	}
 }
