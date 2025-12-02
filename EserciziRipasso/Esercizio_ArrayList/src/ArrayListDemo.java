@@ -7,8 +7,7 @@ public class ArrayListDemo {
 
         ArrayList<Integer> arrayDiInteri = new ArrayList<>();
         ///ArrayList<T> nome = new ArrayList<>(capacitàIniziale);
-        /// <T> E' UN OGGETTO GENERICO, NO TIPI PRIMITIVI (come int, double etc...), solo
-        /// classi WRAPPER (Integer, Double etc...).
+        /// <T> E' UN OGGETTO GENERICO, NO TIPI PRIMITIVI (come int, double etc...), solo classi WRAPPER (Integer, Double etc...).
 
         ///FUNZIONI DELL'ARRAY LIST
         ///FUNZIONE PER AGGIUNGERE (add):
