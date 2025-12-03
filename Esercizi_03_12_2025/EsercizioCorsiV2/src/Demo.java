@@ -17,5 +17,11 @@ public class Demo {
 
         //MOSTRA CORSI
         corsi.mostraCorsi();
+
+        //MODIFICA UN CORSO
+        corsi.modificaCorso();
+
+        //MOSTRA NUOVI CORSI
+        corsi.mostraCorsi();
     }
 }

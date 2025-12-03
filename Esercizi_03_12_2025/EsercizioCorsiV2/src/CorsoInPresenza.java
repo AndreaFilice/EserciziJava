@@ -15,6 +15,7 @@ public class CorsoInPresenza extends Corsi{
     //METODO CLASSE ASTRATTA
     @Override
     public String descrivi() {
-        return "Indirizzo del corso: " + indirizzo;
+        return "Nome alunno: " + this.getNome() + ", Docente: " + this.getDocente() + ", Indirizzo: "
+                + indirizzo;
     }
 }

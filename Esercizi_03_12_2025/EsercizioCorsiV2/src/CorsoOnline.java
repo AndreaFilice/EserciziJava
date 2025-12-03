@@ -20,7 +20,7 @@ public class CorsoOnline extends Corsi{
     //METODI CLASSE ASTRATTA
     @Override
     public String descrivi() {
-        return "Nome alunno: " + this.getNome() + ", Docente: " + this.getDocente() + "Piattaforma: "
+        return "Nome alunno: " + this.getNome() + ", Docente: " + this.getDocente() + ", Piattaforma: "
                 + piattaforma + ", è in live? " + ((live == true) ? "sì" : "no");
     }
 }
