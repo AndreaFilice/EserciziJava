@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ArrayListDouble/ArrayListDouble.iml" filepath="$PROJECT_DIR$/ArrayListDouble/ArrayListDouble.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Esercizi 10_12_2025.iml" filepath="$PROJECT_DIR$/.idea/Esercizi 10_12_2025.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OpereArte/OpereArte.iml" filepath="$PROJECT_DIR$/OpereArte/OpereArte.iml" />
+    </modules>
+  </component>
+</project>
