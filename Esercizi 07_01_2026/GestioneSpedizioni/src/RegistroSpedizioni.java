@@ -37,6 +37,6 @@ public class RegistroSpedizioni {
         if(spedizioni.size() < 0)
             return -1;
         else
-            return somma/spedizioni.size();
+            return somma / spedizioni.size();
     }
 }
