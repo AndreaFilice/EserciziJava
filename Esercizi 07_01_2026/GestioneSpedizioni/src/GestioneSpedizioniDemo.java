@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class GestioneSpedizioniDemo {
 
-    //*GLOBAL VARIABLES
+    //* GLOBAL VARIABLES
     static final RegistroSpedizioni registro = new RegistroSpedizioni();
     static final Scanner t = new Scanner(System.in);
 
