@@ -6,7 +6,7 @@ public class GestioneSpedizioniDemo {
     static final RegistroSpedizioni registro = new RegistroSpedizioni();
     static final Scanner t = new Scanner(System.in);
 
-    static void main() {
+    public static void main(String[] args) {
         int selection = 0;
 
         while (selection != -1){
