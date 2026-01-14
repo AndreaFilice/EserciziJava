@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class AssetAziendale {
     //ATTRIBUTES
     private String dataDiAcquisto;
-    private Scanner t;
+    private Scanner t = new Scanner(System.in);
 
     //CONSTRUCTOR
     public AssetAziendale(String dataDiAcquisto) {this.dataDiAcquisto = dataDiAcquisto;}

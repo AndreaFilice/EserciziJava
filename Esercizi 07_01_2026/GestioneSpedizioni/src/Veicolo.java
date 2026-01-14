@@ -7,7 +7,7 @@ public class Veicolo extends AssetAziendale{
     private String UUID;
     private String tipo;
     private double kilometriPercorsi;
-    private Scanner t;
+    private Scanner t = new Scanner(System.in);
 
     public Veicolo(String targa, String marca, String UUID, String tipo, String dataAcquisto, double kilometriPercorsi) {
         super(dataAcquisto);
@@ -24,25 +24,38 @@ public class Veicolo extends AssetAziendale{
         }
     }
 
+    public Veicolo(){super("");}
+
+    //METODI
+    public String getUUID() {return UUID;}
+    public String getTipo() {return tipo;}
+    public double getKilometriPercorsi() {return kilometriPercorsi;}
+
     @Override
     public void leggiInput(){
         System.out.println("Inserisci kilometri percorsi: ");
         double kilometriPercorsi = t.nextDouble();
+        t.nextLine();
 
         if(kilometriPercorsi < 0){
             System.out.println("ERRORE, IMPOSSIBILE CONTINUARE IL PROGRAMMA. Kilometri inferiori a 0");
             System.exit(1);
         }
         else{
+            this.kilometriPercorsi = kilometriPercorsi;
             super.leggiInput();
             System.out.println("Inserisci targa: ");
-            String targa = t.next();
+            String targa = t.nextLine();
+            this.targa = targa;
             System.out.println("Inserisci marca: ");
-            String marca = t.next();
+            String marca = t.nextLine();
+            this.marca = marca;
             System.out.println("Inserisci UUID: ");
-            String UUID = t.next();
+            String UUID = t.nextLine();
+            this.UUID = UUID;
             System.out.println("Inserisci tipo: ");
-            String tipo = t.next();
+            String tipo = t.nextLine();
+            this.tipo = tipo;
         }
     }
 
