@@ -11,8 +11,8 @@ public class Veicolo extends AssetAziendale{
 
     public Veicolo(String targa, String marca, String UUID, String tipo, String dataAcquisto, double kilometriPercorsi) {
         super(dataAcquisto);
-        if(kilometriPercorsi < 0){
-            System.out.println("ERRORE, IMPOSSIBILE CONTINUARE IL PROGRAMMA. Kilometri inferiori a 0");
+        if(kilometriPercorsi < 0 && !validazioneTarga(targa)){
+            System.out.println("ERRORE, IMPOSSIBILE CONTINUARE IL PROGRAMMA.");
             System.exit(1);
         }
         else{
@@ -61,5 +61,10 @@ public class Veicolo extends AssetAziendale{
 
     public void scriviOutput(){
         System.out.println("Veicolo di targa: " + this.targa + ", UUID: " + this.UUID + ", marca: " + this.marca + ", tipo: " + this.tipo + ", kilometri percorsi: " + this.kilometriPercorsi);
+    }
+
+    public boolean validazioneTarga(String targa){
+        targa = targa.toUpperCase();
+        return targa.matches("[A-Z][A-Z][0-9][0-9][A-Z]");
     }
 }
