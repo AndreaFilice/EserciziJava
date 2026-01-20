@@ -3,9 +3,10 @@ import java.util.Scanner;
 public class DemoAppuntamenti {
 
 	public static void main(String[] args) {
-		String[] orari = {"13","14","15","16","17","18"};
+		String[] orario = {"13","14","15","16","17","18"};
 		String[] descrizione = new String[6];
 		Scanner in = new Scanner(System.in);
+
 		do {
 			try {
 				System.out.print("Inserisci un orario: ");
@@ -16,22 +17,16 @@ public class DemoAppuntamenti {
 					throw new OraNonContemplataException("Errore!");
 				}
 				int idxOrario=-1;
-				for(int i=0;i<orari.length;i++) {
-					if(ora.equals(orari[i])&&descrizione[i]==null) {
+				for(int i=0;i<orario.length;i++) {
+					if(ora.equals(orario[i])&&descrizione[i]==null)
 						idxOrario=i;
-					}
 				}
-				if(idxOrario==-1) {
+				if(idxOrario==-1)
 					throw new OraOccupataException("Errore!");
-				}
 				descrizione[idxOrario]=desc;
 			}
-			catch(OraNonContemplataException e) {
-				System.out.println(e.getMessage());
-			}
-			catch(OraOccupataException e) {
-				System.out.println(e.getMessage());
-			}
+			catch(OraNonContemplataException e) {System.out.println(e.getMessage());}
+			catch(OraOccupataException e) {System.out.println(e.getMessage());}
 		}while(checkVuoto(descrizione));
 		System.out.println("Appuntamenti completati!");
 	}
@@ -42,11 +37,9 @@ public class DemoAppuntamenti {
 			if(descrizione[i]==null) {
 				check=true;
 				break;
-				
 			}
-			else {
+			else
 				check=false;
-			}
 		}
 		return check;
 	}
