@@ -29,9 +29,13 @@ public class DemoAssicurazione {
                         String uuid = t.nextLine();
                         PolizzaAssicurativa polizzaDaRimborsare = gestoreAssicurazione.cercaPolizza(uuid);
 
-                        System.out.println("Inserisci l'importo del rimborso: ");
-                        int importo = t.nextInt();
-                        polizzaDaRimborsare.richiediRisarcimento(importo);
+                        if(polizzaDaRimborsare != null){
+                            System.out.println("Inserisci l'importo del rimborso: ");
+                            int importo = t.nextInt();
+                            polizzaDaRimborsare.richiediRisarcimento(importo);
+                        }
+                        else
+                            throw new PolizzaNonTrovataException("POLIZZA NON TROVATA.", ErrorCodes.INVALID_POLIZZA_UUID);
                     }
                     catch (Exception e){
                         System.out.println(e.toString());
