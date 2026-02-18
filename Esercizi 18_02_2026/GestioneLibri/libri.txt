@@ -1,0 +1,3 @@
+9783127323207;I racconti di DeDiana;110;false
+9783622724206;Ciao;1;true
+9783622724203;Si;80;true
