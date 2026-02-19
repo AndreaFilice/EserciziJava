@@ -100,7 +100,7 @@ public class GestioneLibriDemo {
         String isbnDaCercare = t.nextLine();
         boolean trovato = false;
 
-        while(outReader.hasNextLine()){
+        while(outReader.hasNextLine() && !trovato){
             String[] valori =  outReader.nextLine().split(";");
 
             if(isbnDaCercare.equals(valori[0])){
@@ -128,7 +128,7 @@ public class GestioneLibriDemo {
             System.out.println("ERRORE: " + e.getMessage());
         }
 
-        System.out.println("Inserisci codice ISBN nuovo: ");
+        System.out.println("Inserisci codice ISBN da cercare: ");
         String isbnDaCercare = t.nextLine();
         boolean disponibile;
 
@@ -157,8 +157,6 @@ public class GestioneLibriDemo {
         else
             System.out.println("Errore eliminando il file");
     }
-
-
 
     public static void convalidaISBN(String isbn) throws FormatoISBNException, LunghezzaISBNException {
         if(isbn.length() != 13)
