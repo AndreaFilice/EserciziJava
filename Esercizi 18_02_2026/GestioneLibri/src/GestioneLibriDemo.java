@@ -35,6 +35,7 @@ public class GestioneLibriDemo {
                     modificaDisponibilita();
                     break;
                 case 5:
+                    calcolaMedia();
                     break;
                 default:
                     System.exit(0);
@@ -156,6 +157,21 @@ public class GestioneLibriDemo {
         }
         else
             System.out.println("Errore eliminando il file");
+    }
+
+    public static void calcolaMedia(){
+        double numeroPagineTotale = 0;
+        double totaleLibri = 0;
+
+        while(outReader.hasNextLine()){
+            String[] valori = outReader.nextLine().split(";");
+
+            totaleLibri++;
+            numeroPagineTotale += Double.parseDouble(valori[2]);
+        }
+
+        if(totaleLibri > 0)
+            System.out.printf("\nNumero pagine totali: %.2f\n", (numeroPagineTotale/totaleLibri));
     }
 
     public static void convalidaISBN(String isbn) throws FormatoISBNException, LunghezzaISBNException {
